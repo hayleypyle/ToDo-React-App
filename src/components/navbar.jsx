@@ -15,7 +15,7 @@ a {
 li {
     color: white;
     margin: 0 0.8rem;
-    font-size: 1.3rem;
+    font-size: 1 rem;
     position: relative;
     list-style: none;
 }

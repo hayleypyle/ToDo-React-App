@@ -30,7 +30,7 @@ function ToDos() {
         <>
     <div className="ToDo-Container">
         <h1>To Do App</h1>
-        <h3>Add to my list:</h3>
+        <h3>Add to your list:</h3>
     <div className="ToDo-input">
         <input id="text" type="text" value={userInput} onChange={(e)=>setUserInput(e.target.value)} />
         <button type="button" id="add" onClick={handleAdd}>Add</button>

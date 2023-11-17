@@ -4,7 +4,7 @@ li{
 
 .ToDo-Container{
     background-color:lightgrey;
-    min-height:80vh;
+    min-height:86vh;
     margin:10px;
     display:flex;
     flex-direction:column;
@@ -31,7 +31,7 @@ li{
     width:50vw;
     display:flex;
     flex-direction: column;
-    border:2px solid grey;
+    background-color: darkgrey;
     border-radius:5px;
     width:75vw;
     min-height:25vh;
