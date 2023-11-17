@@ -4,7 +4,7 @@ li{
 
 .ToDo-Container{
     background-color:lightgrey;
-    height:80vh;
+    min-height:80vh;
     margin:10px;
     display:flex;
     flex-direction:column;
@@ -12,25 +12,63 @@ li{
 }
 
 .ToDo-input{
-    width:75vw;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom:10px;
+    margin-bottom:10px;
 }
+
+.ToDo-input input[type="text"]{
+    width:50vw;
+    height:20px;
+    
+}
+
 
 .ToDo-List{
     width:50vw;
     display:flex;
     flex-direction: column;
+    border:2px solid grey;
+    border-radius:5px;
+    width:75vw;
+    min-height:25vh;
+    margin-bottom:15px;
+    padding:10px;
 
 
 }
 
 .userinput{
     width:40vw;
+    
 }
 
-button{
-    width:10vw;
+#add{
+    background-color:black;
+    color:white;
+    border:none;
+    border-radius:5px;
+    width:50vw;
+    height:30px;
+    margin:10px;
+}
+#add:hover{
+    background-color:darkgrey;
+
+}
+#reset{
+    background-color:white;
+    color:Black;
+    border:none;
+    border-radius:5px;
+    width:50vw;
+    margin-bottom:10px;
+    height:30px;
+}
+
+#reset:hover{
+    background-color:darkgrey;
 }
