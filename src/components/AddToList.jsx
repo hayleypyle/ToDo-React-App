@@ -1,15 +1,12 @@
-import React, { useState } from 'react';
-import DeleteFromList from '../components/DeleteFromList';
-import './todos.css'
 
-function ToDos() {
+function AddToList() {
     const [userInput, setUserInput] = useState('');
     const [list, setList] = useState([
 
     ]);
 
     const handleAdd=()=>{
-    if (userInput.trim() !== '') {
+        if (userInput.trim() !== '') {
         setList([...list, { item: userInput }]);
         setUserInput('');
     }
@@ -27,17 +24,16 @@ function ToDos() {
     };
 
     return (
-        <>
-    <div className="ToDo-Container">
+    <div className="notepad">
         <h1>To Do App</h1>
         <h3>Add to my list:</h3>
-    <div className="ToDo-input">
+    <div className="addtasks">
         <input id="text" type="text" value={userInput} onChange={(e)=>setUserInput(e.target.value)} />
         <button type="button" id="add" onClick={handleAdd}>Add</button>
         </div>
-        <div className="ToDo-List">
+        <div className="list-container">
         {list.map((task, index) => (
-            <DeleteFromList
+            <AddToList
                 key={index}
                 id={index}
                 name={task.item}
@@ -55,9 +51,9 @@ function ToDos() {
         <button type="button" id="reset" onClick={handleReset}>Reset</button></div>
 
     </div>
-    </>
     )
     ;
         }
 
-export default ToDos
+
+export default AddToList

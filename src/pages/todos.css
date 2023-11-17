@@ -3,11 +3,11 @@ li{
 }
 
 .ToDo-Container{
+    background-color:lightgrey;
+    height:80vh;
     margin:10px;
-    border: solid 1px black;
     display:flex;
     flex-direction:column;
-    justify-content: center;
     align-items: center;
 }
 
