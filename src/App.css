@@ -1,0 +1,15 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  padding:0;
+  margin:0;
+}
+header{
+  border: 5px solid black;
+  background-color:black;
+  color:white;
+  
+}
+
+.headerlinks{
+  text-decoration: none;
+}
