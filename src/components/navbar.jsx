@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";  
+import './../App.css'
+
 
 const NavUnlisted = styled.ul`
 
@@ -9,6 +11,7 @@ a {
     text-decoration: none;
 }
 
+
 li {
     color: white;
     margin: 0 0.8rem;
@@ -17,23 +20,18 @@ li {
     list-style: none;
 }
 
-.current {
-    li {
-        border-bottom: 2px solid white;
-    }
-}
 `;
 
 function Nav() {
 return (
     <NavUnlisted>
-    <NavLink to="/" activeClassName="current" exact>
+    <NavLink to="/" activeClassName="current" >
         <li>Home</li>
     </NavLink>
-    <NavLink to="/todos" activeClassName="current" exact>
+    <NavLink to="/todos" activeClassName="current" >
         <li>To Do List</li>
     </NavLink>
-    <NavLink to="/contact" activeClassName="current" exact>
+    <NavLink to="/contact" activeClassName="current" >
         <li>Contact</li>
     </NavLink>
     </NavUnlisted>

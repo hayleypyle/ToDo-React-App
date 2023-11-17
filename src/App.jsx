@@ -15,7 +15,6 @@ function App() {
     <>
     <BrowserRouter>
     <header><Nav /></header>
-
     <Routes>
     <Route path='/' element={<Home />}>Home</Route>
     <Route path='/todos' element={<ToDos />}>To Do List</Route>

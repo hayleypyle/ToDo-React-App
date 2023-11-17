@@ -1,0 +1,36 @@
+li{
+    list-style:none;
+}
+
+.ToDo-Container{
+    margin:10px;
+    border: solid 1px black;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ToDo-input{
+    width:75vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ToDo-List{
+    width:50vw;
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+.userinput{
+    width:40vw;
+}
+
+button{
+    width:10vw;
+}
