@@ -3,12 +3,19 @@ li{
 }
 
 .ToDo-Container{
-    background-color:lightgrey;
+    background-color:#EEE7E4;
+    color:black;
+    font-size:1.5rem;
     min-height:86vh;
+    min-width:75vw;
     margin:10px;
     display:flex;
     flex-direction:column;
     align-items: center;
+}
+
+.titles h1, h3{
+    margin:10px
 }
 
 .ToDo-input{
@@ -31,9 +38,9 @@ li{
     width:50vw;
     display:flex;
     flex-direction: column;
-    background-color: darkgrey;
+    background-color: #FFD993;
+    color:black;
     border-radius:5px;
-    width:75vw;
     min-height:25vh;
     margin-bottom:15px;
     padding:10px;
@@ -47,8 +54,8 @@ li{
 }
 
 #add{
-    background-color:black;
-    color:white;
+    background-color: #F6AE2D;
+    color:black;
     border:none;
     border-radius:5px;
     width:50vw;
@@ -56,11 +63,11 @@ li{
     margin:10px;
 }
 #add:hover{
-    background-color:darkgrey;
+    background-color:#F26419;
 
 }
 #reset{
-    background-color:white;
+    background-color:#86BBD8;
     color:Black;
     border:none;
     border-radius:5px;
@@ -70,5 +77,6 @@ li{
 }
 
 #reset:hover{
-    background-color:darkgrey;
+    background-color:#33658A;
+    color:white;
 }

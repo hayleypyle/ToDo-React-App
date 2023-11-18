@@ -1,11 +1,11 @@
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   padding:0;
   margin:0;
 }
 header{
-  border: 5px solid black;
-  background-color:black;
+  border: 5px solid #33658A;
+  background-color:#33658A;
 
   
 }
