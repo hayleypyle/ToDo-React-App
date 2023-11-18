@@ -1,6 +1,6 @@
 import './Delete.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faTrashCan} from '@fortawesome/free-solid-svg-icons'
+import { faTrashCan } from '@fortawesome/free-solid-svg-icons'
 
 
 function DeleteFromList({id, name, completed, item, deleteTask}) {
@@ -10,11 +10,13 @@ function DeleteFromList({id, name, completed, item, deleteTask}) {
     
         }
         return (  
+        
+            
         <div className="listclass">
-        <input type="checkbox" id={name} defaultChecked={completed} value={item}/>
-        <div className="list-input">
-        <label htmlFor="check">{name}</label>
-        <span className="delete-task" onClick={handleDelete}><FontAwesomeIcon icon={faTrashCan} /></span>
+            <input type="checkbox" id={name} defaultChecked={completed} value={item}/>
+            <div className="list-input">
+                <label htmlFor="check">{name}</label>
+                <span className="delete-task" onClick={handleDelete}><FontAwesomeIcon icon={faTrashCan} /></span>
         </div>
         </div>
     
