@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {HashRouter, Routes, Route, Link} from 'react-router-dom'
+import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 import Contact from './pages/contact.jsx'
 import ToDos from './pages/todos.jsx'
 import Home from './pages/home.jsx'
