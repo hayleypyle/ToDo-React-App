@@ -13,14 +13,14 @@ function App() {
 
   return (
     <>
-    <HashRouter>
+    <BrowserRouter baename={"/"}>
     <header><Nav /></header>
     <Routes>
     <Route path='/' element={<Home />}>Home</Route>
     <Route path='/todos' element={<ToDos />}>To Do List</Route>
     <Route path='/contact' element={<Contact />}>Contact</Route>
     </Routes>
-    </HashRouter>
+    </BrowserRouter>
     
     
     </>
