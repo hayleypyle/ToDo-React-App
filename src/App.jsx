@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter baename={"/"}>
+    <BrowserRouter basename={"/"}>
     <header><Nav /></header>
     <Routes>
     <Route path='/' element={<Home />}>Home</Route>
