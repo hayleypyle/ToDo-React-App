@@ -29,7 +29,7 @@ function ToDos() {
     return (
         <>
     <div className="ToDo-Container">
-        <div className="titles"><h1>To Do App</h1>
+        <div className="titles"><h1>To Do List</h1>
         <h3>Add to your list:</h3></div>
         
     <div className="ToDo-input">
